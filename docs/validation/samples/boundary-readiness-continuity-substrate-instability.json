@@ -1,0 +1,48 @@
+{
+  "schema_version": "boundary_readiness.validation_note.v0.1",
+  "case_title": "Continuity-substrate instability under intact closure surface",
+  "case_status": "live_candidate",
+  "classification": "verified_partial",
+  "disclosure_level": "sanitized_public",
+  "source_context": {
+    "system_family": "CLARIXO / EVIDE v2.x boundary_readiness validation",
+    "candidate_type": "L0 warning-state responsibility object",
+    "application_context": "warning_probe_validation",
+    "recorded_at": "2026-05-07T03:35:01+00:00"
+  },
+  "visible_closure_surface": {
+    "closure_state": "reviewed_close",
+    "responsibility_declared": true,
+    "operator_action": "self_test_review",
+    "record_reconstructable": true,
+    "closure_object_present": true
+  },
+  "continuity_conditions": {
+    "authority_coherence": "weak",
+    "threshold_status": "partially_met",
+    "trace_continuity": "degraded",
+    "continuity_state": "warning",
+    "continuity_degradation_level": "light"
+  },
+  "handoff_readiness": {
+    "handoff_eligible": false,
+    "handoff_block_reason": "review_required_before_handoff",
+    "output_authority_status": "warning_review_required",
+    "review_required": true
+  },
+  "boundary_readiness_interpretation": {
+    "evidentiary_integrity": "intact",
+    "governance_integrity": "degraded",
+    "downstream_transferability": "blocked_pending_review",
+    "readiness_result": "verified_partial"
+  },
+  "non_overclaim": {
+    "does_not_claim_l2_5_readiness": true,
+    "does_not_claim_l3_anchor_acceptance": true,
+    "does_not_claim_l5_admissibility": true,
+    "does_not_claim_execution_authority": true,
+    "does_not_claim_legal_judgment": true
+  },
+  "public_summary": "The closure object remained intact and the record remained reconstructable, but continuity conditions degraded underneath the visible surface. Handoff was therefore blocked and review was required.",
+  "core_observation": "Evidentiary integrity does not by itself guarantee governance integrity or downstream handoff readiness."
+}
