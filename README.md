@@ -24,3 +24,8 @@ CLARIXO helps teams manage:
 
 ## Status
 Early public launch.
+
+## Validation notes
+
+- [Continuity-Substrate Instability Case](docs/validation/continuity-substrate-instability-case.md)  
+  A sanitized live candidate showing that a closure object can remain intact while continuity conditions degrade underneath the visible surface, blocking downstream handoff until review.
